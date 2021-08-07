@@ -1,7 +1,6 @@
-console.log('background running!');
-
-chrome.browserAction.onClicked.addListener(buttonClicked)
-
-function buttonClicked(tab){
-    console.log(tab);
-}
+chrome.action.onClicked.addListener((tab) => {
+    chrome.scripting.executeScript({
+        target: {tabId: tab.id},
+        files: ["content.js"]
+    });
+});
