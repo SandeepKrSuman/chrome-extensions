@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Pink Paragraphs",
     "version": "1.0",
-    "description": "Changes the background color of all the paragraph on every page you visit to pink",
+    "description": "Automatically Changes the background color of all the paragraph on every page you visit to pink",
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
