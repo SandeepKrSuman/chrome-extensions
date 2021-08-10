@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Kitten Every Where",
+    "version": "1.0",
+    "description": "Replace every images on the page with the image of a kitten",
+    "author": "SandeepKrSuman",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["kittens/*.jpg"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
