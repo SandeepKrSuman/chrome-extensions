@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Kitten Every Where",
     "version": "1.0",
-    "description": "Replace every images on the page with the image of a kitten",
+    "description": "Replace every image on the page with the image of a kitten",
     "author": "SandeepKrSuman",
     "content_scripts": [
         {
