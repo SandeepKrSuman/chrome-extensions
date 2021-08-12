@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "PopUp",
+    "version": "1.0",
+    "action": {
+        "default_icon": {
+            "16": "icon16.png",
+            "24": "icon24.png",
+            "32": "icon32.png"
+        },
+        "default_title": "Click for pop up",
+        "default_popup": "popup.html"
+    },
+    "description": "Simple demonstration of popups in chorme extension"
+
+}
