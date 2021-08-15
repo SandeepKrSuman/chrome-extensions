@@ -8,10 +8,16 @@
             "24": "icon24.png",
             "32": "icon32.png"
         },
-        "default_title": "Click for pop up",
+        "default_title": "WORD TO GIF",
         "default_popup": "popup.html"
     },
     "description": "Select a word on the webpage and open popup to see related gif.",
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "author": "SandeepKrSuman",
     "content_scripts": [
         {
           "matches": [
