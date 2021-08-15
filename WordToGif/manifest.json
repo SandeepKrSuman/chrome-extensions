@@ -12,9 +12,6 @@
         "default_popup": "popup.html"
     },
     "description": "Select a word on the webpage and open popup to see related gif.",
-    "background": {
-      "service_worker": "background.js"
-    },
     "content_scripts": [
         {
           "matches": [
@@ -22,6 +19,7 @@
           ],
           "js": ["content.js"]
         }
-      ]
+      ],
+      "permissions": ["tabs"]
 
 }
