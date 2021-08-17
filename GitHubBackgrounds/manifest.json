@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "GitHub Background",
+    "version": "1.0",
+    "action": {
+        "default_icon": {
+            "16": "icon16.png",
+            "24": "icon24.png",
+            "32": "icon32.png"
+        },
+        "default_title": "Click for popup",
+        "default_popup": "popup.html"
+    },
+    "description": "Set custom background color of GitHub by selecting a color from the popup.",
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+          "matches": [
+            "https://*.github.com/*"
+          ],
+          "js": ["content.js"]
+        }
+      ],
+      "permissions": ["tabs", "storage"]
+
+}
