@@ -21,3 +21,17 @@ Every chrome extension begin with `manifest.json` file. All these extensions lis
 ```
 
 <br>
+
+- Content Scripts run in the context of web pages. By using Standard DOM they are able to read details of the web pages the browser visits, make changes to them and pass information to their parent extension.
+- Events are managed with background scripts.
+
+<br>
+
+### Running the Extension
+
+- Visit `chrome://extensions/`.
+- Turn on the developer mode from top right corner.
+- Click on `Load unpacked`.
+- Select the extension directory with manifest file in the root of the directory.
+
+<br>
