@@ -6,6 +6,19 @@
   
 <br>
 
+### Contents
+
+1. Hello World `// Basic extension to alert Hello World.`
+2. Pink Paragraphs `// Automatically changes background color of every paragraph to pink.`
+3. Pink Paragraphs 2 `// Changes background color of paragraphs using background script.`
+4. Kitten Everywhere `// replace images of on the webpage with an image that of a kitten.`
+5. Popup `// Demonstration of popup in chrome extensions.`
+6. Popup 2 `// Replace paragraph texts on the webpage with custom user input.`
+7. Dictionary `// Select a word on the webpage to get its definitions and example usage.`
+8. Word To Gif `// Select a word and get a gif related to it.`
+9. New Tab Override `// Replace new tab with your own custom page.`
+10. GitHub Backgrounds `// Change background color of GitHub by selecting your own color from the popup.`
+
 ### Manifest
 
 Every chrome extension begin with `manifest.json` file. All these extensions listed here uses manifest version 3 `MV3`. A simple manifest file looks like this:
@@ -35,3 +48,6 @@ Every chrome extension begin with `manifest.json` file. All these extensions lis
 - Select the extension directory with manifest file in the root of the directory.
 
 <br>
+<br>
+
+<p align="center">If these projects helped you in any way do give this repo a 🌟.</p>
