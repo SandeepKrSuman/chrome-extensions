@@ -51,7 +51,7 @@ Every chrome extension begin with `manifest.json` file. All these extensions lis
 
 ### License
 
-- [![APM](https://img.shields.io/apm/l/vim-mode?style=for-the-badge)](LICENSE)
+[![APM](https://img.shields.io/apm/l/vim-mode?style=for-the-badge)](LICENSE)
 
 <br>
 <br>
