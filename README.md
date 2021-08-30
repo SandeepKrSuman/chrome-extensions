@@ -48,6 +48,12 @@ Every chrome extension begin with `manifest.json` file. All these extensions lis
 - Select the extension directory with manifest file in the root of the directory.
 
 <br>
+
+### License
+
+- [![APM](https://img.shields.io/apm/l/vim-mode?style=for-the-badge)](LICENSE)
+
+<br>
 <br>
 
 <p align="center">If these projects helped you in any way do give this repo a 🌟.</p>
